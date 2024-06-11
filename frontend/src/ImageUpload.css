@@ -1,0 +1,112 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+label{
+    color: greenyellow;
+    font-size: large;
+    font-weight: 700;
+}
+
+.wrapper{
+    background-color: #BF1363;
+    width: 250px;
+    height: 210px;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color:#191923;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.preview {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    object-fit: cover;
+}
+
+button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #0E79B2;
+    color: #191923;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #54adde;
+    transform: translateY(-2px);
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: green;
+}
+
+
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
